@@ -43,4 +43,10 @@ int main() {
     assert ("hola" == "hola");
     assert ("Mayuscula" != "mayuscula");
 
+    // Char
+
+    assert ('A' == 65);
+    assert ('A' + 'B' == 131);
+    assert ('A' + 1 == 'B');
+    assert ('B' > 'A');
 }
